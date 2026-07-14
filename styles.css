@@ -6,6 +6,8 @@
 
 header {
     background-color: rgb(17, 146, 28);
+    display: flex;
+    justify-content: space-between;
 }
 
 #tabpage {
@@ -14,6 +16,8 @@ header {
     color: rgb(255, 255, 255);
     font-style: italic;
     justify-content: right;
+    display: flex;
+    align-items: center;
 }
 
 /* for mobile devices */
@@ -42,6 +46,8 @@ header {
     .bg-image {
         width: 500px;
         height: 500px;
+        max-width: 100%;
+        max-height: auto;
     }
 
     .product-card {
@@ -98,7 +104,6 @@ header {
     display: flex;
     align-items: center;
     padding: 15px 30px;
-    width: 100%;
     top: 0%;
     left: 0%;
     z-index: 1000;
@@ -128,12 +133,14 @@ p {
     width: 100vw;
     height: 100%;
     font-size: 100px;
+    flex-direction: column;
 }
 
-name {
+.name {
     font-size: 45px;
     justify-content: center;
     margin-bottom: 20px;
+
 }
 
 label {
@@ -153,7 +160,7 @@ input {
     margin-bottom: 20px;
 }
 
-button {
+.button {
     background-color: #4CAF50;
     color: white;
     padding: 10px 20px;
@@ -175,7 +182,7 @@ button:hover {
     cursor: pointer;
 }
 
-byline {
+.byline {
     font-size: 20px;
     justify-content: center;
     margin-bottom: 20px;
