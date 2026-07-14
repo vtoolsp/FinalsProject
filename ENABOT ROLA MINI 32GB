@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ENABOT ROLA Mini 32GB</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav id="tabpage">
+            <name>Philippine Robotics</name>
+            <br>
+            <byline>Your human help and aesthetics!</byline>
+        </nav>
+        <div class="menu">
+            <ul class="nav-links">
+                <li><a href="#about">About us</a></li>
+                <li><a href="contactus.html">Contact</a></li>
+                <li><a href="#services">Services</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div class="product-selection">
+            <img src="Enabot ROLA Mini 32GB.jpg" alt="ENABOT ROLA Mini 32GB" width="500" height="300">
+            <h1>ENABOT ROLA Mini 32GB</h1>
+            <p>Mini Robot Vacuum Cleaner with 32GB Storage, for Efficient Cleaning and Smart Navigation</p>
+
+            <br>
+            <p>Features:</p>
+            <br>
+            <ul>
+                <li>Compact Design for Easy Storage</li>
+                <li>32GB Storage Capacity</li>
+                <li>Smart Navigation System</li>
+                <li>Efficient Cleaning Performance</li>
+            </ul>
+            <br>
+            <p>Price: $199.99</p>
+            <br>
+            <button><a href="shopping.html">Buy Now</a></button>
+            <br>
+            <button><a href="index.html">Back to Home</a></button>
+        </div>
+    </main>
+</body>
+</html>
