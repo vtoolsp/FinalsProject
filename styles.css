@@ -43,6 +43,10 @@ header {
         width: 500px;
         height: 500px;
     }
+
+    .product-card {
+        width: 100%;
+    }
 }
 
 
@@ -94,7 +98,7 @@ header {
 }
 
 p {
-    font-size: 24px;
+    font-size: 15px;
     text-align: center;
     margin-bottom: 20px;
     line-height: 1.5;
@@ -163,12 +167,9 @@ byline {
 
 .product-selection {
     justify-content: center;
-    gap: 20px;
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-    align-items: center;
-    place-content: center;
 }
 
 .text-overlay {
@@ -200,7 +201,7 @@ byline {
 }
 
 h2 {
-    font-size: 24px;
+    font-size: 16px;
     margin-bottom: 10px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     animation: fadeIn 1s ease-in-out;
@@ -236,8 +237,8 @@ h1 {
 
 img {
     animation: fadeIn 1s ease-in-out;
-    width: 500px;
-    height: 500px;
+    width: 150px;
+    height: 150px;
 }
 
 .container-services {
@@ -249,4 +250,25 @@ img {
     background-color: rgba(255, 255, 255, 0.9);
     animation: fadeIn 1s ease-in-out;
     border-radius: 10px;
+}
+
+.product-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+    transition: transform 0.3s ease;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.grid-container {
+    display: flex;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
