@@ -16,7 +16,6 @@ header {
     color: rgb(255, 255, 255);
     font-style: italic;
     justify-content: right;
-    display: flex;
     align-items: center;
 }
 
@@ -136,7 +135,7 @@ p {
     flex-direction: column;
 }
 
-.name {
+name {
     font-size: 45px;
     justify-content: center;
     margin-bottom: 20px;
@@ -182,7 +181,7 @@ button:hover {
     cursor: pointer;
 }
 
-.byline {
+byline {
     font-size: 20px;
     justify-content: center;
     margin-bottom: 20px;
