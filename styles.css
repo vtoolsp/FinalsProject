@@ -28,6 +28,21 @@ header {
         height: 100%;
         background-color: rgba(255, 255, 255, 0.9);
     }  
+
+    .nav-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img {
+        max-width: 50%;
+        height: auto;
+    }
+
+    .bg-image {
+        width: 500px;
+        height: 500px;
+    }
 }
 
 
@@ -75,12 +90,15 @@ header {
     justify-content: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: rgba(255, 255, 255, 0.9);
+    animation: fadeIn 1s ease-in-out;
 }
 
 p {
     font-size: 24px;
     text-align: center;
     margin-bottom: 20px;
+    line-height: 1.5;
+    animation: fadeIn 1s ease-in-out;
 }
 
 .shop-now {
@@ -123,6 +141,17 @@ button {
     cursor: pointer;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     display: flex;
+    align-items: center;
+    place-content: center;
+    margin: 0 auto;
+    animation: fadeIn 1s ease-in-out;
+
+}
+
+button:hover {
+    background-color: #45a049;
+    color: #fff;
+    cursor: pointer;
 }
 
 byline {
@@ -133,12 +162,13 @@ byline {
 }
 
 .product-selection {
-    display: flex;
-    flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    align-items: center;
+    place-content: center;
 }
 
 .text-overlay {
@@ -147,11 +177,76 @@ byline {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .bg-image {
-    width: 100%;
-    height: auto;
+    width: 2000px;
+    height: 1000px;
     object-fit: cover;
+}
+
+.product-select {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+    transition: transform 0.3s ease;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    animation: fadeIn 1s ease-in-out;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+a {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    align-items: center;
+    text-decoration: none;
+    place-content: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    animation: fadeIn 1s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+img {
+    animation: fadeIn 1s ease-in-out;
+    width: 500px;
+    height: 500px;
+}
+
+.container-services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgba(255, 255, 255, 0.9);
+    animation: fadeIn 1s ease-in-out;
+    border-radius: 10px;
 }
